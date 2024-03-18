@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
+    "animejs": "^3.2.2",
     "flowbite": "^2.3.0"
   }
 }
