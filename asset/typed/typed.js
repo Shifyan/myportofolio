@@ -1,5 +1,15 @@
 const nameTyped = new Typed('#name-typed', {
-  strings: ['SHIFYAN ALMUSTAFID', 'WEB DEVELOPER', 'PONOROGO'],
+  strings: [
+    'WEB DEVELOPER',
+    'FRONT-END DEVELOPER',
+    'BACK-END DEVELOPER',
+    'TAILWIND CSS',
+    'BOOTSTRAP',
+    'REACT JS',
+    'NODE JS',
+    'EXPRESS JS',
+    'PHP'
+  ],
   typeSpeed: 100,
   startDelay: 1000,
   backSpeed: 50,
