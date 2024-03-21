@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
 
   <body class="bg-gray-100">
@@ -20,7 +21,7 @@
     <nav class="flex justify-center bg-white">
       <div class="nav-menu my-5 text-lg">
         <a href="#" class="mx-5">Home</a>
-        <a href="#" class="mx-5">About</a>
+        <a href="#" class="mx-5">Tech Stack</a>
         <a href="#" class="mx-5">Project</a>
         <a href="#" class="mx-5">Contact</a>
       </div>
@@ -29,14 +30,43 @@
     <!-- Header End -->
 
     <!-- Hero Section -->
-    <section class="py-5 md:py-8">
+    <section class="py-12 md:py-10">
       <div class="container max-w-screen-xl mx-auto px-4">
         <div class="text-center">
-          <div class="flex justify-center mb-8">
+          <div class="flex justify-center mb-6">
             <img src="../asset/img/img-hero.png" class="w-64" alt="Image" />
           </div>
-          <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-6">Shifyan Almustafid</h6>
-          <h1 class="font-normal text-gray-900 text-3xl md:text-7xl leading-none mb-8">
+          <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-2">Shifyan Almustafid</h6>
+          <div class="flex items-center justify-center space-x-8 mb-4">
+            <a
+              href="https://instagram.com/a.shif_yan/"
+              class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
+            >
+              <i
+                data-feather="instagram"
+                class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"
+              ></i>
+            </a>
+            <a
+              href="https://github.com/Shifyan"
+              class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
+            >
+              <i
+                data-feather="github"
+                class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"
+              ></i>
+            </a>
+            <a
+              href="https://id.linkedin.com/in/shifyan-almustafid-b33970227"
+              class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
+            >
+              <i
+                data-feather="linkedin"
+                class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"
+              ></i>
+            </a>
+          </div>
+          <h1 class="font-normal text-gray-900 text-3xl md:text-5xl leading-none mb-8">
             <span id="name-typed"></span>
           </h1>
           <a
@@ -49,9 +79,25 @@
     </section>
     <!-- Hero Section End -->
 
+    <!-- Tech Stack Section -->
+    <div class="stack my-12 md:my-16">
+      <div class="flex justify-center">
+        <h1 class="text-4xl font-bold">Tech Stack</h1>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 justify-center mx-10">
+        <div>HAllo</div>
+        <div>HAllo</div>
+        <div>HAllo</div>
+      </div>
+    </div>
+    <!-- Tech Stack Section End -->
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="../asset/typed/typed.js"></script>
     <script src="../asset/animation/anime.min.js"></script>
     <script src="../asset/animation/animation.js"></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
