@@ -12,25 +12,27 @@
       href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://kit.fontawesome.com/74f1fb32ee.js" crossorigin="anonymous"></script>
   </head>
 
   <body class="bg-gray-100">
     <!-- Header -->
     <!-- Navbar -->
     <nav class="flex justify-center bg-white">
-      <div class="nav-menu my-5 text-lg">
-        <a href="#" class="mx-5">Home</a>
-        <a href="#" class="mx-5">Tech Stack</a>
-        <a href="#" class="mx-5">Project</a>
-        <a href="#" class="mx-5">Contact</a>
+      <div class="nav-menu py-5 text-lg">
+        <a href="#" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500">Home</a>
+        <a href="#tech-stack" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500"
+          >Tech Stack</a
+        >
+        <a href="#" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500">Project</a>
+        <a href="#" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500">Contact</a>
       </div>
     </nav>
     <!-- Navbar End -->
     <!-- Header End -->
 
     <!-- Hero Section -->
-    <section class="py-12 md:py-10">
+    <section id="hero" class="py-12 md:py-10">
       <div class="container max-w-screen-xl mx-auto px-4">
         <div class="text-center">
           <div class="flex justify-center mb-6">
@@ -40,6 +42,7 @@
           <div class="flex items-center justify-center space-x-8 mb-4">
             <a
               href="https://instagram.com/a.shif_yan/"
+              target="_blank"
               class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
             >
               <i
@@ -49,6 +52,7 @@
             </a>
             <a
               href="https://github.com/Shifyan"
+              target="_blank"
               class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
             >
               <i
@@ -58,6 +62,7 @@
             </a>
             <a
               href="https://id.linkedin.com/in/shifyan-almustafid-b33970227"
+              target="_blank"
               class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
             >
               <i
@@ -80,18 +85,273 @@
     <!-- Hero Section End -->
 
     <!-- Tech Stack Section -->
-    <div class="stack my-12 md:my-16">
+    <div id="tech-stack" class="stack my-12 md:my-16">
       <div class="flex justify-center">
-        <h1 class="text-4xl font-bold">Tech Stack</h1>
+        <h1 class="text-4xl font-bold">My Tech Stack</h1>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 justify-center mx-10">
-        <div>HAllo</div>
-        <div>HAllo</div>
-        <div>HAllo</div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-4 justify-center mx-16 my-12">
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-html5 font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">HTML</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44">
+              <p>
+                Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman
+                website dan aplikasi web.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/HTML"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-css3-alt font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">CSS</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang
+                tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan
+                visualnya di situs.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/Cascading_Style_Sheets"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-js font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">JAVASCRIPT</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                JavaScript adalah skrip pemrograman ringan yang umumnya digunakan oleh web developer untuk menciptakan
+                interaksi yang lebih dinamis saat membuat halaman web, aplikasi, server, atau game.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/JavaScript"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-node-js font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">NODE JS</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                Node.js adalah runtime environment lintas platform single-thread yang dibangun berdasarkan engine
+                JavaScript V8 Chrome yang bisa digunakan untuk membuat aplikasi jaringan dan aplikasi server-side yang
+                real-time dan scalable (bisa dikembangkan sesuai kebutuhan).
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/Node.js"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-php font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">PHP</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                Preprocessor Hypertext Preprocessor atau PHP adalah bahasa penulisan skrip open-source yang banyak
+                digunakan dalam pemrograman atau pengembangan website (web development). Bahasa ini umumnya dijalankan
+                dalam komunikasi sisi server.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/PHP"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <img src="../asset/img/expressjs-icon.svg" class="w-12 text-5xl" />
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">EXPRESS JS</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                Express.js merupakan sebuah framework untuk pengembangan bagian belakang (back-end) suatu aplikasi. Hal
+                ini berarti bahwa Express.js bertanggung jawab untuk mengatur berbagai fungsi di dalam sebuah situs web.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://expressjs.com/"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-react font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">REACT JS</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                React (dikenal juga dengan React.js atau ReactJS) adalah libray JavaScript yang digunakan untuk
+                membangun user interface yang interaktif berbasis component. React yang dibuat oleh Facebook (sekarang
+                Meta) dan bersifat open-source (sumber terbuka).
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/React.js"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <i class="fa-brands fa-bootstrap font-medium text-5xl"></i>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">BOOTSTRAP</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                Bootstrap adalah kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi
+                web. Kerangka kerja ini berisi templat desain berbasis HTML dan CSS untuk tipografi, formulir, tombol,
+                navigasi, dan komponen antarmuka lainnya.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/Bootstrap_(kerangka_kerja)"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
+        <!-- Tech Stack Content -->
+        <div class="border rounded-lg py-10 px-7 bg-white">
+          <div class="tech-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center">
+                <img src="../asset/img/tailwind.svg" class="w-12 text-5xl" />
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">TAILWIND CSS</h4>
+            </div>
+            <div class="tech-info flex justify-center text-center h-44 mb-3">
+              <p>
+                Tailwind CSS adalah kerangka kerja (framework) CSS yang di dalamnya terdapat sekumpulan utility classes
+                untuk membangun antarmuka kustom dengan cepat.
+              </p>
+            </div>
+            <div class="btn">
+              <a
+                href="https://id.wikipedia.org/wiki/Tailwind_CSS"
+                target="_blank"
+                class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+                >Baca Lebih Lanjut...</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack Content End -->
       </div>
     </div>
     <!-- Tech Stack Section End -->
 
+    <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="../asset/typed/typed.js"></script>
     <script src="../asset/animation/anime.min.js"></script>
