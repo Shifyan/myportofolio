@@ -1,5 +1,14 @@
 const codeIcon = document.getElementById('code-icon');
 
+window.addEventListener('scroll', () => {
+  const navbar = document.getElementById('nav');
+  if (window.scrollY > 0) {
+    navbar.classList.replace('bg-white', 'bg-white/75');
+  } else {
+    navbar.classList.replace('bg-white/75', 'bg-white');
+  }
+});
+
 codeIcon.addEventListener('mouseenter', e => {
   const codeText = document.getElementById('code-text');
   codeText.classList.add('opacity-100');
