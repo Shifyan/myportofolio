@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/74f1fb32ee.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/74f1fb32ee.js" crossorigin="anonymous"></script> -->
   </head>
 
   <body class="bg-gray-100">
@@ -20,8 +20,10 @@
     <!-- Navbar -->
     <nav class="flex justify-center bg-white">
       <div class="nav-menu py-5 text-lg">
-        <a href="#" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500">Home</a>
-        <a href="#tech-stack" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500"
+        <a href="#" id="toHero" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500"
+          >Home</a
+        >
+        <a href="#" id="toStack" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500"
           >Tech Stack</a
         >
         <a href="#" class="p-3 rounded-full mx-1 hover:bg-gray-200 transition ease-in-out duration-500">Project</a>
@@ -36,7 +38,7 @@
       <div class="container max-w-screen-xl mx-auto px-4">
         <div class="text-center">
           <div class="flex justify-center mb-6">
-            <img src="../asset/img/img-hero.png" class="w-64" alt="Image" />
+            <img src="../asset/img/img-hero.png" class="w-52 md:w-64" alt="Image" />
           </div>
           <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-2">Shifyan Almustafid</h6>
           <div class="flex items-center justify-center space-x-8 mb-4">
@@ -89,7 +91,7 @@
       <div class="flex justify-center">
         <h1 class="text-4xl font-bold">My Tech Stack</h1>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-4 justify-center mx-16 my-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-y-4 md:gap-4 lg:gap-4 justify-center mx-16 my-12">
         <!-- Tech Stack Content -->
         <div class="border rounded-lg py-10 px-7 bg-white">
           <div class="tech-content">
@@ -351,6 +353,49 @@
     </div>
     <!-- Tech Stack Section End -->
 
+    <!-- Project Section -->
+    <div id="my-project" class="my-12 md:my-16">
+      <div class="flex justify-center">
+        <h1 class="text-4xl font-bold">My Project</h1>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-y-4 md:gap-4 lg:gap-4 justify-center mx-16 my-12">
+        <!-- My Project Content -->
+        <div class="border rounded-lg py-3 px-3 bg-white">
+          <div class="project-content">
+            <div class="flex justify-center mb-7">
+              <div class="tech-icon flex flex-col justify-center max-w-full overflow-hidden rounded-lg">
+                <a href="https://pelajarnubadegan.my.id" target="_blank">
+                  <img
+                    src="../asset/img/project-img/pelajarnubadegan.png"
+                    class="object-contain transform hover:scale-125 transition-transform duration-500 ease-in-out"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="tech-title flex justify-center mb-1">
+              <h4 class="font-semibold text-xl">Pelajar Nu Badegan</h4>
+            </div>
+            <div class="flex justify-center">
+              <a href="https://pelajarnubadegan.my.id" target="_blank" class="underline underline-offset-2"
+                >https://pelajarnubadegan.my.id</a
+              >
+            </div>
+            <a
+              href="https://id.wikipedia.org/wiki/Tailwind_CSS"
+              target="_blank"
+              class="p-4 font-medium rounded-md bg-gray-700 text-gray-50 hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
+              >Lihat Kode...</a
+            >
+          </div>
+        </div>
+
+        <!-- My Project Content End -->
+      </div>
+    </div>
+    <!-- Project Section End -->
+
+    <script src="./main.js"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="../asset/typed/typed.js"></script>
