@@ -1,5 +1,3 @@
-const codeIcon = document.getElementById('code-icon');
-
 window.addEventListener('scroll', () => {
   const navbar = document.getElementById('nav');
   if (window.scrollY > 0) {
@@ -9,18 +7,21 @@ window.addEventListener('scroll', () => {
   }
 });
 
-codeIcon.addEventListener('mouseenter', e => {
-  const codeText = document.getElementById('code-text');
-  codeText.classList.add('opacity-100');
-  codeText.classList.add('transition');
-  codeText.classList.add('duration-500');
-});
+const codeIcon = document.querySelectorAll('.code-icon');
+const codeText = document.querySelectorAll('.code-text');
 
-codeIcon.addEventListener('mouseleave', e => {
-  const codeText = document.getElementById('code-text');
-  codeText.classList.remove('opacity-100');
-  codeText.classList.remove('transition');
-  codeText.classList.remove('duration-500');
+codeIcon.forEach((el, i) => {
+  el.addEventListener('mouseenter', () => {
+    codeText[i].classList.add('opacity-100');
+    codeText[i].classList.add('transition');
+    codeText[i].classList.add('duration-500');
+  });
+
+  el.addEventListener('mouseleave', () => {
+    codeText[i].classList.remove('opacity-100');
+    codeText[i].classList.remove('transition');
+    codeText[i].classList.remove('duration-500');
+  });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
