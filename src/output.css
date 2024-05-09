@@ -917,6 +917,10 @@ input[type="range"]::-ms-fill-lower {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1001,6 +1005,10 @@ input[type="range"]::-ms-fill-lower {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-14 {
