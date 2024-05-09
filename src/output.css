@@ -1003,10 +1003,6 @@ input[type="range"]::-ms-fill-lower {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-14 {
   height: 3.5rem;
 }
@@ -1373,10 +1369,6 @@ input[type="range"]::-ms-fill-lower {
   text-underline-offset: 2px;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .opacity-100 {
   opacity: 1;
 }
@@ -1411,6 +1403,14 @@ input[type="range"]::-ms-fill-lower {
 
 .ease-linear {
   transition-timing-function: linear;
+}
+
+nav {
+  transition: background-color 0.8s ease, box-shadow 0.8s ease;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hover\:scale-125:hover {
